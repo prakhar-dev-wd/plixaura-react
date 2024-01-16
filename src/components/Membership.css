@@ -1,0 +1,104 @@
+.plix-club {
+    display: inline-flex;
+    padding: inherit;
+    gap: 18px;
+    border: aquamarine;
+    box-sizing: border-box;
+    margin: 10px;
+    background-color: rgb(240, 234, 234);
+    border-radius: 10px;
+  }
+  .final-price{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-left: 10px;
+    padding-top: 8px;
+  }
+  .membership-img {
+    height: 83px;
+    width: 83px;
+  }
+  .membership-detail {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000;
+  }
+  .club-duration{
+    display: block;
+    font-size: 13px;
+    color: #282c3f;
+  }
+  .club-price-tag{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:5px;
+  }
+  .cost-discount{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 19px;
+    color: rgb(0, 0, 0);
+  }
+  .cost-nodiscount{
+    text-decoration-line: line-through;
+    font-family: "CocoSharp XL";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 120%;
+    color: rgb(128, 128, 128);
+    margin-right: 9px;
+  }
+  .discount-percent{
+    background: rgb(205, 239, 212);
+    border-radius: 6px;
+    font-family: "CocoSharp XL";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 160%;
+    margin-left: 8px;
+    padding: 4px 6px;
+    color: rgb(30, 175, 109) !important;
+  }
+  .membership-button{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 20px;
+    justify-content: space-evenly;
+    font-size: 28px;
+    background-color: rgb(240, 234, 234);
+    border-radius:10px ;
+    margin: 10px;
+  }
+  .buttons{
+    display: block;
+  }
+  .membership-benefits{
+    font-size: 20px;
+    width: 173px;
+    height: 36px;
+    border-radius:5px ;
+    background-color:white;
+    padding: 5px;
+    color:black ;
+  }
+  .membership-join{
+    font-size: 20px;
+    width: 173px;
+    height: 36px;
+    border-radius: 5px;
+    background-color: #5dd37c;
+    padding: 5px;
+    font-family: "Lemon";
+    font-weight: 800;
+  }
+

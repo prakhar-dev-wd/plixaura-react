@@ -1,0 +1,233 @@
+.nav {
+  width: 100vw;
+  align-items: center;
+  min-height: 3rem;
+  height: 4.625rem;
+  grid-template-columns: 1fr 1fr;
+  background-color: #5dd37c;
+  padding: 0 3vw;
+  display: grid;
+  border-radius: 0.25rem;
+}
+.heading {
+  font-size: 1.563rem;
+  color: #f7e4ee;
+  font-family: "Lemon", cursive;
+}
+.svg-header {
+  list-style: none;
+  display: flex;
+}
+.header-item {
+  margin-left: 6.25rem;
+}
+.front-img {
+  margin: 6.25rem;
+  height: 384px;
+  width: 384px;
+}
+.prod-data {
+  margin: 0%;
+  padding: 0.375rem;
+  margin-top: 4.75rem;
+  font-size: 2.625rem;
+  font-family: "Dancing Script";
+}
+.data {
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  height: 3rem;
+  justify-content: center;
+}
+.prod-tags {
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  margin: 1.5rem;
+  grid-gap: 1.063rem;
+}
+.tags {
+  display: inline;
+  font-size: 0.875rem;
+  border-radius: 0.313rem;
+  font-weight: 450;
+  text-align: center;
+  padding: 0.5rem 0.5rem;
+  font-family: "Lemon";
+}
+.price {
+  display: inline;
+  margin: 0.75rem;
+  font-size: 2.75rem;
+  font-weight: 800;
+  font-family: math;
+}
+.prod-cost {
+  margin-top: 0.813rem;
+  color: #222222;
+}
+.tax {
+  font-size: 2.063rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.btn {
+  border-radius: 5px;
+  background: rgb(85, 209, 93);
+  color: white;
+  height: 48px;
+  width: 90%;
+  margin-top: 5px;
+  font-size: 28px;
+  font-family: cursive;
+  border: none;
+  position: sticky;
+}
+.ant-drawer-header {
+  background-color: #5dd37c;
+  height: 73px;
+}
+.ant-drawer-title {
+  font-size: 32px !important;
+  font-weight: 700;
+  font-family: "Dancing Script";
+}
+.ant-drawer-close {
+  position: absolute;
+  top: 28px;
+  right: 4px !important;
+  font-size: 22px !important;
+}
+.cart-data{
+  margin: 15px;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: cursive;
+}
+.cart-cost{
+  display: flex;
+  margin: 15px;
+}
+.prod-quantity{
+  display: block;
+}
+.cart-prod-detail{
+  height: auto;
+  margin-left: 15px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.cart-cost-detail{
+  font-size: 15px;
+  font-weight: 700;
+  font-family: cursive;
+}
+.cart-counter-parent{
+  width: 100%;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 0px;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 21px;
+}
+.prod-cart-details{
+  background: #f0eaea;
+  border-radius: 10px;
+}
+.cart-counter{
+  display: flex;
+  gap:6px;
+}
+.cart-prod-button{
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-family: cocosharp_xlextrabold;
+  font-weight: 800;
+  margin-left: 8px;
+  background: rgb(209, 255, 217) !important;
+  font-size: 10px !important;
+  line-height: 120% !important;
+  color: rgb(30, 175, 109) !important;
+}
+.cart-prod-nodiscount{
+  font-family: "CocoSharp XL";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+  color: gray;
+  text-decoration: line-through;
+}
+.cart-prod-final-price{
+  font-family: "CocoSharp XL";
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 0px;
+}
+.cart-last-detail{
+  padding-top: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.cart-quan-inc{
+  padding: 4px 8px;
+  cursor: pointer;
+
+}
+.cart-quan-dec{
+  display: flex;
+  align-items: center;
+  padding: 4px 8px ;
+}
+.proceed-to-pay{
+  width: 100%;
+  background-color: #5dd37c;
+  position: absolute;
+  bottom: 0;
+  flex-direction: column;
+  display: flex;
+  left: 0%;
+}
+.final-amount{
+  font-size: 16px;
+  background-color: #f0eaea;
+  
+}
+.checkout{
+    background-color: #5dd37c;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: cursive;
+    color: aliceblue;
+    border-style: none;
+}
+.checkout:hover{
+  cursor:pointer;
+}
+
+ @media  (max-width: 480px) {
+  .data{
+    display: block;
+  }
+  .header-item{
+    margin-left: 3.25rem;
+  }
+  .tags{
+    display: block;
+  }
+  .btn{
+    position: fixed;
+    bottom: 0;
+    left: 5%;
+  }
+}
