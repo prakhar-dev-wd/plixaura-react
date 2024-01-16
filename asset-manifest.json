@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/plixaura-react/static/css/main.d23bc6db.css",
+    "main.js": "/plixaura-react/static/js/main.cdcea296.js",
+    "index.html": "/plixaura-react/index.html",
+    "main.d23bc6db.css.map": "/plixaura-react/static/css/main.d23bc6db.css.map",
+    "main.cdcea296.js.map": "/plixaura-react/static/js/main.cdcea296.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d23bc6db.css",
+    "static/js/main.cdcea296.js"
+  ]
+}
