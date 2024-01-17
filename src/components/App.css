@@ -215,6 +215,10 @@
   cursor:pointer;
 }
 
+.null_display {
+  display: none;
+}
+
  @media  (max-width: 480px) {
   .data{
     display: block;
