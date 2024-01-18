@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/plixaura-react/static/css/main.e63c7ee7.css",
+    "main.css": "/plixaura-react/static/css/main.70885af1.css",
     "main.js": "/plixaura-react/static/js/main.d27192e9.js",
     "index.html": "/plixaura-react/index.html",
-    "main.e63c7ee7.css.map": "/plixaura-react/static/css/main.e63c7ee7.css.map",
+    "main.70885af1.css.map": "/plixaura-react/static/css/main.70885af1.css.map",
     "main.d27192e9.js.map": "/plixaura-react/static/js/main.d27192e9.js.map"
   },
   "entrypoints": [
-    "static/css/main.e63c7ee7.css",
+    "static/css/main.70885af1.css",
     "static/js/main.d27192e9.js"
   ]
 }
