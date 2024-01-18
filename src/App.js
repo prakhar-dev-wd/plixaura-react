@@ -6,10 +6,10 @@ import Prod from "./ProductData";
 function App() {
   return (
     <div>
-      <Header />
+      <Header text="PLIX"/>
       <div className="data">
         <Image />
-        <Prod />
+        <Prod text="Plix Aura Collection Collection Luxury Perfume Gift Set (4 X 20 ml) | Unisex " />
       </div>
     </div>
   );

@@ -2,10 +2,10 @@ import React from "react";
 import "./App.css";
 import Svg from "./SVG";
 
-function Header() {
+function Header(props) {
   return (
     <nav className="nav">
-      <h1 className="heading">PLIX</h1>
+      <h1 className="heading">{props.text}</h1>
         <Svg />
     </nav>
   );
